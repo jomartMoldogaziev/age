@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Туулган жылынызды жазыныз</h1>
+        <input type="" id="inputNumber">
+        <button onclick="kindAge()">Жашынызды билуу учун басыныз</button>
+        <div class="correct" id="correct" style="display: none;">Сиздин жашыныз</div>
+        <div class="error" id="error" style="display: none;">Туура эмес</div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <!-- <script>
+        let input = document.createElement('input')
+        let p = document.createElement('p')
+
+        input.oninput = (e)=>{
+            // p.innerHTML=e.target.value
+            localStorage.setItem('text',e.target.value)
+        }
+        p.innerHTML = localStorage.getItem('text')
+
+        let body = document.body
+        body.append(input)
+        body.append(p)
+    </script> -->
+</body>
+</html>

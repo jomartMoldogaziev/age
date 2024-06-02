@@ -1,0 +1,38 @@
+body{
+    width: auto;
+    display: flex;
+    background-color: rgb(156, 204, 245);
+
+}
+
+
+h1{
+    text-align: left;
+    color: rgb(13, 0, 255);
+    margin-left: 20px;
+}
+#inputNumber{
+    margin-left: 20px;
+    width: 100px;
+        border: 2px solid blue;
+                font-size: 17px;
+
+
+}
+button{
+    margin-left: 20px;
+    margin-top: 10px;
+        border: 2px solid blue;
+        font-size: 17px;
+    background-color: rgb(45, 86, 237);
+    border-radius: 8px;
+    color: white;
+}
+.correct{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.error{
+     margin-top: 30px;
+    margin-left: 20px;
+}
